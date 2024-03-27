@@ -2,6 +2,6 @@
 myfile='cars.txt'
 i=1
 while read lines; do
-echo "$i : MeTleejGuGtQsVrD0rfj5C $lines"
+echo "$i : $lines"
 i=$((i+1))
 done < $myfile
