@@ -1,9 +1,1 @@
-#!/bin/bash
-
-file_to_check="my_file.txt"
-
-if [ -f "$file_to_check" ]; then
-  echo "$file_to_check exists."
-else
-  echo "$file_to_check does not exist."
-fi
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
