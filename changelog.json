@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "65af7b820bafd957d7721fa2"
+  },
+  "fileName": "/db/changelog/changes/azure/azure-subscription-collection.yaml",
+  "id": " ",
+  "author": "Gil",
+  "md5sum": "8:31d2a0a0ee7094a780c839b487ff9957",
+  "dateExecuted": {
+    "$date": {
+      "$numberLong": "1705999234721"
+    }
+  },
+  "tag": "week04_2024",
+  "execType": "EXECUTED",
+  "description": "tagDatabase; runCommand",
+  "comments": null,
+  "contexts": null,
+  "labels": null,
+  "deploymentId": "5999234295",
+  "orderExecuted": 88,
+  "liquibase": "4.5.0",
+  "up": "db.runCommand({\"dropIndexes\": \"azure-subscription\", \"index\": \"azure_unique_subscription_index\"});",
+  "down": "db.runCommand({\"createIndexes\": \"azure-subscription\", \"indexes\": [{\"key\": {\"accountId\": 1, \"connectorId\": 1, \"subscriptionId\": 1, \"ownerId\": 1, \"_class\": 1}, \"name\": \"azure_unique_subscription_index\", \"unique\": true}]});"
+}]
